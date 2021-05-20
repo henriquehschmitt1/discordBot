@@ -1,9 +1,9 @@
 const Twitter = require('twitter')
 
 const client1 = new Twitter({
-    consumer_key: 'rimUOF7kI9QML0Q1iprQzFcSF',
-    consumer_secret: 'jwS1rJFsPh1NXnOq8FydeKYlvctuYUgrh6OMhKaKwnCvs5pbPF',
-    bearer_token: 'AAAAAAAAAAAAAAAAAAAAAPdsNQEAAAAA1Ams6BcJKzOEXfuoqcKe41W2320%3Dz4oUT6rgJyxy0GnwX5vHswDysRifao1S2x096dhjwRw5ryUO63'
+    consumer_key: 'YOURKEY',
+    consumer_secret: 'YOURSECRET',
+    bearer_token: 'YOURBEARER'
 });
 
 const Discord = require('discord.js');
@@ -46,4 +46,4 @@ client.on('message', message => {
     }
 });
 
-client.login('ODE3MTY1MzE4NDMzOTMxMjg1.YEFigg.w-6Cp6m5--SEepduTjvPUX7pKHo');
+client.login('YOURLOGIN');
